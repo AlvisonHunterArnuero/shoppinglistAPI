@@ -1,0 +1,22 @@
+{
+  "name": "shoppinglistapi",
+  "version": "1.0.0",
+  "description": "Shopping List API to test it with Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js -e js"
+  },
+  "keywords": [
+    "express",
+    "shoppingList",
+    "API",
+    "nodejs",
+    "basic",
+    "CRUD"
+  ],
+  "author": "Alvison Hunter Arnuero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
