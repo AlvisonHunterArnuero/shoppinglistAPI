@@ -1,9 +1,11 @@
-const { home, about, contact } = require('../views/index.js');
+const { tasks } = require('../controllers');
 
 const routes = (app) => {
-  app.get('/', home);
-  app.get('/about', about);
-  app.get('/contact', contact);
+  //app.get('/api/tasks', controllers.tasks.all); // all
+  app.post('/api/tasks', tasks.create); // create
+  //app.put('/api/tasks', controllers.tasks.update); // update
+  //app.delete('/api/tasks', controllers.tasks.delete); // delete
+  //app.get('/api/tasks/:id', controllers.tasks.find); // find
 };
 
 module.exports = routes;
