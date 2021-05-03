@@ -1,28 +1,10 @@
 {
-  "name": "shoppinglistapi",
+  "name": "todo-api",
   "version": "1.0.0",
-  "description": "Shopping List API to test it with Express",
-  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js -e js"
+    "start": "node server.js"
   },
-  "keywords": [
-    "express",
-    "shoppingList",
-    "API",
-    "nodejs",
-    "basic",
-    "CRUD"
-  ],
-  "author": "Alvison Hunter Arnuero",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.11.6"
-  },
-  "devDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "express": "^4.16.4"
   }
 }
